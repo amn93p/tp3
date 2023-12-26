@@ -1,0 +1,40 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+	font-family: "Caveat Brush", cursive;
+}
+
+.header {
+	margin-left: 50px;
+	margin-top: 20px;
+}
+
+nav ul {
+	list-style-type: none;
+	display: flex;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+.bg {
+	background-image: url("../img/panneau-bois-rustique.jpg");
+	background-size: cover;
+	width: 1920px;
+	height: 560px;
+}
+
+section img {
+	margin-top: 150px;
+	margin-left: 820px;
+}
+
+div i {
+	color: #e53f6f;
+	font-size: 60px;
+	margin-top: 90px;
+	margin-left: 885px;
+}
