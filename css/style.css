@@ -5,6 +5,15 @@
 	font-family: "Caveat Brush", cursive;
 }
 
+body {
+	overflow-x: hidden;
+}
+
+.container {
+	width: 1920px;
+	margin: auto;
+}
+
 .header {
 	margin-left: 50px;
 	margin-top: 20px;
@@ -20,21 +29,230 @@ a {
 	color: black;
 }
 
+.cerf {
+	position: relative;
+	z-index: 2;
+}
+
 .bg {
 	background-image: url("../img/panneau-bois-rustique.jpg");
 	background-size: cover;
 	width: 1920px;
-	height: 560px;
+	height: 620px;
 }
 
 section img {
-	margin-top: 150px;
-	margin-left: 820px;
+	margin-top: 100px;
+	margin-left: 770px;
+}
+
+.triangle {
+	width: 0px;
+	height: 0px;
+	margin-top: -3910px;
+	margin-left: 780px;
+	border-style: solid;
+	border-width: 180px 0 20px 200px;
+	border-color: transparent transparent transparent #e53f6f;
+	transform: rotate(185deg);
 }
 
 div i {
 	color: #e53f6f;
 	font-size: 60px;
-	margin-top: 90px;
-	margin-left: 885px;
+	margin-top: 82px;
+	margin-left: 855px;
+}
+
+.header {
+	float: left;
+}
+.navbar {
+	float: right;
+}
+
+#entete {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-left: 70px;
+}
+#logo {
+	margin-top: 18px;
+	display: flex;
+	align-items: center;
+	font-size: 25px;
+}
+
+.trait1 {
+	border-bottom: 1rem solid #e53f6f;
+	font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+		"Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+
+}
+
+nav ul {
+	margin-right: 50px;
+	list-style: none;
+	margin-top: 18px;
+}
+
+nav li {
+	display: inline-block;
+	margin-right: 20px;
+	margin-left: 25px;
+	font-size: 25px;
+}
+
+nav li:last-child {
+	margin-right: 0;
+}
+
+h2 {
+	width: 500px;
+	font-size: 40px;
+	margin-top: 258px;
+	margin-left: 210px;
+	font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+		"Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+h3 {
+	width: 500px;
+	font-size: 40px;
+	margin-top: 50px;
+	margin-left: -400px;
+	font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+		"Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+h4 {
+	width: 500px;
+	font-size: 40px;
+	margin-top: 2000px;
+	margin-left: -1850px;
+	font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+		"Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+h5 {
+	font-size: 50px;
+	margin-left: 100px;
+	margin-top: -360px;
+}
+
+.section2 {
+	display: flex;
+}
+
+.img1 {
+	margin-top: 10px;
+	margin-left: 0px;
+	width: 1160px;
+	background-size: cover;
+}
+
+.img2 {
+	margin-top: 725px;
+	margin-left: -2000px;
+	width: 1420px;
+	height: 870px;
+	background-size: cover;
+}
+
+.img3 {
+	margin-left: -1200px;
+	margin-top: 1598px;
+	width: 1100px;
+}
+
+.p1 {
+	font-family: serif;
+	font-size: 20px;
+}
+
+p {
+	font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+		"Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.p2 {
+	color: #e53f6f;
+	font-size: 30px;
+	margin-left: 270px;
+	font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+		"Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.p3 {
+	width: 500px;
+	margin-top: 40px;
+	margin-left: -520px;
+	font-family: serif;
+	font-size: 20px;
+}
+
+.p4 {
+	width: 150px;
+	margin-left: -350px;
+	margin-top: 20px;
+	font-size: 30px;
+	color: #e53f6f;
+}
+
+.p5 {
+	font-family: serif;
+	font-size: 20px;
+	width: 500px;
+	margin-left: -1850px;
+	margin-top: 40px;
+}
+
+.p6 {
+	width: 160px;
+	margin-left: -1695px;
+	margin-top: -145px;
+	font-size: 30px;
+	color: #e53f6f;
+}
+
+.p8 {
+	margin-left: 100px;
+}
+
+.img4 {
+	margin-left: -450px;
+	margin-top: 898px;
+	width: 340px;
+}
+
+.img5 {
+	margin-bottom: 325px;
+	margin-left: -1675px;
+	width: 340px;
+}
+
+.img6 {
+	width: 2000px;
+	margin-left: -2100px;
+	margin-top: 2330px;
+}
+
+.footerr {
+	height: 500px;
+	background-image: url(/img/motif.jpg);
+	margin-left: -2000px;
+	margin-top: 3510px;
+}
+
+.social {
+	display: flex;
+	justify-content: right;
+	margin-right: 200px;
+}
+
+.social i {
+	font-size: 35px;
+	margin: 0;
+	margin-right: 30px; /* Adjust the space as needed */
 }
